@@ -25,7 +25,7 @@ struct AuthenticationView: View {
                     .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)
                     .shadow(color: Color.red, radius: 50)
                 NavigationLink {
-                    SecondScreenView()
+                    SignInEmailView()
                 } label: {
                    
                     SıgnInButtonView(buttonName: emailSıgnButton, signLogo: emailLogo)
@@ -74,7 +74,7 @@ struct SıgnInButtonView: View {
         HStack {
             Text(buttonName)
                 .font(.title)
-                .foregroundColor(.white)
+                .foregroundColor(.black)
                 .padding(.vertical,5)
                 
                 .textScale(Text.Scale.secondary)
@@ -88,7 +88,7 @@ struct SıgnInButtonView: View {
        
                 .overlay(
                     RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color.white, lineWidth: 1)
+                        .stroke(Color.black, lineWidth: 1)
                     
             )
             

@@ -40,6 +40,7 @@
 		25C8F80E2BDBDE1A00DCEE6A /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 25C8F80D2BDBDE1A00DCEE6A /* FirebaseRemoteConfigSwift */; };
 		25C8F8102BDBDE1A00DCEE6A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 25C8F80F2BDBDE1A00DCEE6A /* FirebaseStorage */; };
 		25C8F8122BDBDE1A00DCEE6A /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 25C8F8112BDBDE1A00DCEE6A /* FirebaseStorageCombine-Community */; };
+		25DB745C2BDFC73600F11BFF /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DB745B2BDFC73600F11BFF /* SignInEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		25C8F7D02BDBDB1E00DCEE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25C8F7D32BDBDB1E00DCEE6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		25C8F7DA2BDBDC2200DCEE6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25DB745B2BDFC73600F11BFF /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				25288C8B2BDED3C90004C57A /* AuthenticationView.swift */,
+				25DB745B2BDFC73600F11BFF /* SignInEmailView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				25C8F7CF2BDBDB1D00DCEE6A /* ContentView.swift in Sources */,
 				25C8F7CD2BDBDB1D00DCEE6A /* SwiftUIWithFirebaseApp.swift in Sources */,
 				25288C8C2BDED3C90004C57A /* AuthenticationView.swift in Sources */,
+				25DB745C2BDFC73600F11BFF /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
